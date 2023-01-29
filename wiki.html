@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang 'ru'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wesleezz</title>
+        <link rel="icon" type="image/x-icon" href="_next/peepoG.png">
+        <link rel="stylesheet" href="_next/css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Inter:500" rel="stylesheet" type="text/css">
+    </head>
+    <body class="min-h-full bg-white dark:bg-gray-900 dark:text-gray-50 selection:bg-yellow-600 selection:text-white antialiased">
+        <div id="__next" data-reactroot="">
+            <script>
+                ! function() {
+                    try {
+                         var d = document.documentElement,
+                            c = d.classList;
+                        c.remove('light', 'dark');
+                        var e = localStorage.getItem('theme');
+                        if ('system' === e || (!e && true)) {
+                            var t = '(prefers-color-scheme: dark)',
+                                 m = window.matchMedia(t);
+                            if (m.media !== t || m.matches) {
+                                d.style.colorScheme = 'dark';
+                                c.add('dark')
+                            } else {
+                                 d.style.colorScheme = 'light';
+                                 c.add('light')
+                             }
+                        } else if (e) {
+                            c.add(e || '')
+                        }
+                         if (e === 'light' || e === 'dark') d.style.colorScheme = e
+                     } catch (e) {}
+                   }()
+                </script>
+        <div class="grid grid-rows-[1fr_auto] min-h-screen gap-6">
+		  <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none" class="[--toast-background:theme(colors.gray.200)] dark:[--toast-background:theme(colors.gray.800)] [--toast-text:theme(colors.black)] dark:[--toast-text:theme(colors.white)] [--toast-success:theme(colors.green.600)] dark:[--toast-success:theme(colors.green.400)]"></div>
+			<header class="bg-white/90 dark:bg-gray-900/90 supports-backdrop-blur:bg-white/75 supports-backdrop-blur:dark:bg-gray-900/75 backdrop-blur fixed w-full border-b-2 border-gray-100/75 dark:border-gray-800/75 z-50 transition-colors duration-150">
+			  <div class="px-6 lg:px-6">
+				  <div class="grid grid-cols-[auto_auto] justify-between py-4 lg:py-0">
+					  <div class="grid justify-start"><a class="grid grid-flow-col items-center justify-start gap-4 motion-safe:transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 px-5 -mx-5 group hover:opacity-80 motion-safe:active:scale-95" href="/">
+					  <div class="h-10 w-10 rounded-lg bg-gray-200 dark:bg-gray-800 group-focus-visible:bg-yellow-400/20 dark:group-focus-visible:bg-yellow-300/20 transition overflow-hidden"><img alt="peepoG" srcset="_next/peepoG.png 1x?url=%2F_next%2FpeepoG.png&amp;w=1080&amp;q=75 1x, _next/peepoG.png 2xe?url=%2F_next%2FpeepoG.png&amp;w=1920&amp;q=75 2x" src="_next/peepoG.png?url=%2F_next%2FpeepoG.png&amp;w=1920&amp;q=75" width="920" height="920" decoding="async" data-nimg="future" class="object-fill" loading="lazy" style="background-size:cover;background-position:0% 0%;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' xmlns%3Axlink='http%3A//www.w3.org/1999/xlink' viewBox='0 0 920 920'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='50'%3E%3C/feGaussianBlur%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'%3E%3C/feFuncA%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23b)' x='0' y='0' height='100%25' width='100%25' href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAWlBMVEVMaXHxtpPzuJ3fnnjhoG/foXXsz6vOk2fxsYzoo3zuspHCgUh1cG9lZWS8eUBkanTlvZ9JTVjt0r6Ii5mRfU9TU1O7iFrDf0rGjVxKSUfDoEfswnRBRU6ypJq7QDs1AAAAFXRSTlMAtmvEKvn+/Ag/lL6Eduj++8a9wPxJyvnvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPklEQVQImS2IRxKAIBDAYoEFu+hi//83nXXMKQkEfsqGWFhFN2yVnVr23H7iRHJnlvz0aA8slx8PBeZzvVVfNU8CN38DKQsAAAAASUVORK5CYII='%3E%3C/image%3E%3C/svg%3E&quot;);"><noscript><img alt="Логотип" srcset="_next/pwgood_header-1.png 1x?url=%2F_next%2Fstatic%2Fmedia%2Fpwgood_header.ece4ea6b.png&amp;w=1080&amp;q=75 1x, _next/peepoG.png 2xe?url=%2F_next%2FpeepoG.png&amp;w=1920&amp;q=75 2x" src="_next/peepoG.png.png?url=%2F_next%2Fstatic%2Fmedia%2FpeepoG.png&amp;w=1920&amp;q=75" width="920" height="920" decoding="async" data-nimg="future" class="object-fill" loading="lazy"></noscript></div>
+					  <div class="text-xl font-bold">Wesleezz</div>
+					  </a></div>
+				  <div class="grid grid-flow-col gap-3 lg:hidden"><button class="bg-gray-800 rounded-lg p-2 grid place-items-center text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500 transition" aria-label="Открыть меню навигации" id="headlessui-popover-button-undefined" type="button" aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="0" viewbox="0 0 24 24" class="h-6 w-6" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+				  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+			    </svg></button></div>
+<nav class="hidden lg:grid lg:grid-flow-col -mr-3 xl:-mr-5"><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 text-yellow-500 dark:text-yellow-400 after:bg-yellow-500" href="index.htm">Главная</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="projects.html">Мои Проекты</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="wiki.html">Вики</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="faqs.html">ЧаВо</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="soon.html">Coming Soon..</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="https://dsc.gg/nekocorp">Дискорд</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="https://necorp">Телеграм</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="https://twitch.tv/wesleezz">Твич</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="https://github.com/wesleezz">Гитхаб</a><a class="font-medium rounded py-6 transition focus:outline-none focus-visible:bg-yellow-300/20 dark:focus-visible:bg-yellow-300/10 text-sm px-3 xl:text-base xl:px-4 2xl:px-5 relative after:absolute after:block after:transition after:w-[calc(100%-theme(spacing.3)*2)] xl:after:w-[calc(100%-theme(spacing.4)*2)] 2xl:after:w-[calc(100%-theme(spacing.5)*2)] after:rounded-lg after:h-[3px] after:bottom-0 after:mb-2 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-300 after:bg-transparent" href="https://nekocorp.gq">Приватный сервер</a></nav>
+			</div>
+		</div>
+	</header>
+			<main class="mt-32">
+				<div class="container mx-auto px-6 h-full grid grid-rows-[auto_1fr]">
+					<h1 class="text-4xl mb-8 font-bold dark:text-gray-50 text-center"></h1>
+					<div class="rounded-lg border-2 border-gray-100 dark:border-gray-800 px-6 py-16 text-center dark:text-gray-100 grid place-items-center">
+						<div>
+							<div class="grid place-items-center mb-6">
+								<div class="overflow-hidden"><img alt="flushed" srcset="_next/flushed.png 1x?url=%2F_next%2Fflushed.png&amp;w=128&amp;q=75 1x, _next/flushed.png 2xe?url=%2F_next%2Fstatic%2F.png&amp;w=256&amp;q=75 2x" src="_next/flushed.png?url=%2F_next%2Fstatic%2Fmedia%2Fegg.79b70834.png&amp;w=256&amp;q=75" width="120" height="120" decoding="async" data-nimg="future" class="duration-700 ease-in-out scale-110 blur-2xl grayscale h-16 w-16" style="background-size:cover;background-position:0% 0%;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' xmlns%3Axlink='http%3A//www.w3.org/1999/xlink' viewBox='0 0 120 120'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='50'%3E%3C/feGaussianBlur%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'%3E%3C/feFuncA%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23b)' x='0' y='0' height='100%25' width='100%25' href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAS1BMVEVMaXHHwbnDvLLUz8by7+rz8Orn5N7c2NHv7Obw7Obf29Pr5+HOyL+1rqK4sabJwrjY08rm4tzj39nu6uT18u3Tz8e6s6e1rqO5sadcdFIKAAAAFHRSTlMA/U5ToOP8+f0aJhHxwr7Tqsf9CSH//18AAAAJcEhZcwAACxMAAAsTAQCanBgAAABBSURBVAiZFctJEoAgDADBCQQSRMUF1P+/1OLWlwaK6gJQUneb0u7ZDrhT92uslZo8m0iBM5t8DYhD3ifOFvYtwA9DIAHkioT//wAAAABJRU5ErkJggg=='%3E%3C/image%3E%3C/svg%3E&quot;);"><noscript><img alt="egg" srcset="_next/flushed.png 1x?url=%2F_next%2Fflushed.png&amp;w=128&amp;q=75 1x, _next/flushed.png 2xe?url=%2F_next%2Fflushed.png&amp;w=256&amp;q=75 2x" src="_next/flushed.png?url=%2F_next%2Fflushed.png&amp;w=256&amp;q=75" width="120" height="120" decoding="async" data-nimg="future" class="duration-700 ease-in-out scale-110 blur-2xl grayscale h-16 w-16"></noscript></div>
+							</div>
+							<div class="font-medium text-lg">К сожалению пока что Визя не сделал этот раздел.</div>
+						</div>
+					</div>
+				</div>
+			</main>
+</body>
+
+</html>
