@@ -38,7 +38,7 @@
 					<a
 						class="bg-shine animate-shine grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-cyan-600 px-6 py-3 font-medium text-white outline-cyan-700 transition [--shine-color:theme(colors.teal.500/50%)] hover:bg-cyan-700 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-cyan-800"
 						aria-disabled="false"
-						href="/wiki"
+						href="https://t.me/wesleezz"
 					>
 						<svg
 							viewBox="0 0 24 24"
