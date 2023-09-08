@@ -29,10 +29,10 @@
 				<h1
 					class="font-manrope mx-auto mb-6 max-w-5xl text-center text-5xl font-extrabold leading-[1.1] tracking-tighter md:text-6xl"
 				>
-					Wesleezz
+					Визя
 				</h1>
 				<p class="mb-8 max-w-xl text-center text-lg leading-relaxed">
-					Дизайнер, разработчик и просто хороший человек
+					или же Вислиз, люблю дизайн и историю ещё там так называемый разработчик
 				</p>
 				<div class="mb-8 grid items-start justify-center gap-4 sm:grid-flow-col md:gap-6">
 					<a
