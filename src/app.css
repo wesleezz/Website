@@ -8,3 +8,20 @@
 * > * {
 	font-family: 'Inter', sans-serif;
 }
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden; /* 🚫 убирает весь скролл */
+	height: 100%;
+  background-color: #cfcb8cda;
+  animation: greenToBlue 10s infinite alternate;
+}
+
+@keyframes greenToBlue {
+  0%   { background-color: #cfcb8cda; }
+  50% { background-color: #e27250da; }
+  75% { background-color: #96e240da; }
+  100% { background-color: #8cbacfda; }
+}
