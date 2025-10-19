@@ -1,5 +1,5 @@
 {
 	"buildCommand": "pnpm install && pnpm run build",
 	"installCommand": "pnpm install",
-	"framework": "vite"
+	"framework": "sveltekit"
 }
