@@ -1,6 +1,0 @@
-{
-  "installCommand": "pnpm install --frozen-lockfile",
-  "buildCommand": "pnpm run build",
-  "nodeVersion": "22.20.x",
-  "framework": "vite"
-}
