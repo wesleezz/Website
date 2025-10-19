@@ -12,8 +12,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0(@sveltejs/kit@1.30.4(svelte@3.59.2)(vite@4.5.14(@types/node@16.18.11)(sass@1.89.2)))(svelte@3.59.2)
       node:
-        specifier: ^22.10.0
-        version: 22.10.0
+        specifier: ^22.20.0
+        version: 22.20.0
       pnpm:
         specifier: ^10.18.3
         version: 10.18.3
